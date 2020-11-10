@@ -4,6 +4,7 @@
 <head>
     
     <script src="script/efmmenu.js" defer></script>
+    <script src="upload.js"></script>
     <link rel="stylesheet" href="css/efm.css">
     <title>Education For Ministry</title>
     <meta name="author" content="Keenan J. Norris">
@@ -31,7 +32,7 @@
 
     <p>This is for members only.  Please upload .pdf or .doc files only and no more than 1mb</p>
 
-    <form action="/action_page.php">
-        <input type="file" id="myFile" name="filename">
-        <input type="submit">
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="files[]" multiple />
+        <input type="submit" value="Upload File" name="submit" />
       </form>
