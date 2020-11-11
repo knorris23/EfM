@@ -1,40 +1,39 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<head>
+    <head>
     
-    <php include "process.php";
-    ?>
-    <script src="script/file.js"></script>
-    <link rel="stylesheet" href="css/efm.css">
-    <title>Education For Ministry</title>
-    <meta name="author" content="Keenan J. Norris">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <php include "process.php"; ?>
+        <script src="script/file.js"></script>
+        <link rel="stylesheet" href="css/efm.css">
+        <title>Education For Ministry</title>
+        <meta name="author" content="Keenan J. Norris">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    </head>
 
-</head>
+    <body>
 
-<body>
+        <a href="index.html">
+        <img src="pics/efm-logo.jpg" alt="Education for ministries logo" width="device-width, initial-scale=1.0" height="device-height, initial-scale=1.0"></a>
 
-    <a href="index.html">
-    <img src="pics/efm-logo.jpg" alt="Education for ministries logo" width="device-width, initial-scale=1.0" height="device-height, initial-scale=1.0">
-    </a>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="event.html">Events</a>
+            <a href="about.html">About</a>
+            <a href="login.html">Login</a>
+            <a href="enrol.html">Enrollment & Fees</a>
+            <a href="resource.html">Resources for Participants</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="files.html">files</a>
+        </div>
 
-    <div>
-        <a href="index.html">Home</a>
-        <a href="event.html">Events</a>
-        <a href="about.html">About</a>
-        <a href="login.html">Login</a>
-        <a href="enrol.html">Enrollment & Fees</a>
-        <a href="resource.html">Resources for Participants</a>
-        <a href="contact.html">Contact Us</a>
-        <a href="files.html">files</a>
-    </div>
+        <p>This is for members only.  Please upload pdf, txt, doc, or a docx files.  Files should be no bigger than 2mb.</p>
 
-    <p>This is for members only.  Please upload pdf, txt, doc, or a docx files.  Files should be no bigger than 2mb.</p>
-
-    <form method="post" enctype="multipart/form-data">
-        <input type="file" name="files[]" multiple />
-        <input type="submit" value="uploads" name="submit" />
-      </form>
-</body>
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="files[]" multiple />
+            <input type="submit" value="uploads" name="submit" />
+        </form>
+    </body>
+</html>
