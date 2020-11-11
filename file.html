@@ -4,7 +4,7 @@
     <head>
     
         <php include "process.php"; ?>
-        <script src="script/file.js"></script>
+        <script src="script/file.js" defer></script>
         <link rel="stylesheet" href="css/efm.css">
         <title>Education For Ministry</title>
         <meta name="author" content="Keenan J. Norris">
@@ -18,7 +18,9 @@
         <a href="index.html">
         <img src="pics/efm-logo.jpg" alt="Education for ministries logo" width="device-width, initial-scale=1.0" height="device-height, initial-scale=1.0"></a>
 
-        <div>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Menu</button>
+            <div id="myDropdown" class="dropdown-content">
             <a href="index.html">Home</a>
             <a href="event.html">Events</a>
             <a href="about.html">About</a>
@@ -27,6 +29,7 @@
             <a href="resource.html">Resources for Participants</a>
             <a href="contact.html">Contact Us</a>
             <a href="files.html">files</a>
+            </div>
         </div>
 
         <p>This is for members only.  Please upload pdf, txt, doc, or a docx files.  Files should be no bigger than 2mb.</p>
