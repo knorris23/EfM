@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    
+    <script src="script/efmmenu.js" defer></script>
+    <link rel="stylesheet" href="css/page.css">
+    <title>Education For Ministry</title>
+    <meta name="author" content="Keenan J. Norris">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+  <body>
+
+<h1>For More Information</h1>
+
+<form action="/process.php" onSubmit="alert('Thank you for your interest.')">
+  <label for="fname">First name:</label><br><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="mname">Middle name:</label><br><br>
+  <input type="text" id="mname" name="mname"><br><br>
+  <label for="lname">Last name:</label><br><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email Address:</label><br><br>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="phone">Phone Number (xxx-xxx-xxxx):</label><br><br>
+  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+  <label for="adr"><i class="fa fa-address-card-o"></i> Address</label><br><br>
+  <input type="text" id="adr" name="address"><br><br>
+  <label for="city"><i class="fa fa-institution"></i> City</label><br><br>
+  <input type="text" id="city" name="city"><br><br>
+  <label for="state">State</label><br><br>
+  <input type="text" id="state" name="state"><br><br>
+  <label for="zip">Zip</label><br><br>
+  <input type="text" id="zip" name="zip"><br><br>
+  <label for="dio">Diocese/Affiliation:</label><br><br>
+  <input type="text" id="dio" name="dio"><br><br>
+  <input type="submit" value="Submit">
+
+</form> 
+
+<p style= "color: #d0b986">If you click the "Submit" button, the form-data will be sent to a mentor who will contact you within 24 - 48 hours.</p>
+
+</body>
+
+</html>
