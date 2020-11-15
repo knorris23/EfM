@@ -42,3 +42,10 @@
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+/* background for index page */
+body {
+  background-image: url(../pics/efm-logo.jpg);
+  background-repeat: no-repeat;
+  background-size: 70% 1400%;
+}
