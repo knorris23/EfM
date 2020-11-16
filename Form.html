@@ -14,18 +14,20 @@
   <body>
 
     <h1>For More Information</h1>
+    <h3>Fields with asterisk (*) are required.</h3>
 
-    <form src="C:/xampp/htdocs/efm_form/process.php" method="POST" alert="Thank you for your interest">
-      <label for="FirstName">First name:</label><br><br>
-      <input type="text" id="FirstName" name="FirstName"><br><br>
+    <form method="post" action="http://localhost/efm_form/process.php">
+
+      <label for="FirstName">First name:*</label><br><br>
+      <input type="text" id="FirstName" name="FirstName" required><br><br>
       <label for="MiddleName">Middle name:</label><br><br>
       <input type="text" id="MiddleName" name="MiddleName"><br><br>
-      <label for="LastName">Last name:</label><br><br>
-      <input type="text" id="LastName" name="LastName"><br><br>
-      <label for="Email">Email Address:</label><br><br>
-      <input type="email" id="Email" name="Email"><br><br>
-      <label for="PhoneNumber">Phone Number (xxx-xxx-xxxx):</label><br><br>
-      <input type="tel" id="PhoneNumber" name="PhoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+      <label for="LastName">Last name:*</label><br><br>
+      <input type="text" id="LastName" name="LastName" required><br><br>
+      <label for="Email">Email Address:*</label><br><br>
+      <input type="email" id="Email" name="Email" required><br><br>
+      <label for="PhoneNumber">Phone Number (xxx-xxx-xxxx):*</label><br><br>
+      <input type="tel" id="PhoneNumber" name="PhoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
       <label for="Address"><i class="fa fa-address-card-o"></i> Address</label><br><br>
       <input type="text" id="Address" name="Address"><br><br>
       <label for="City"><i class="fa fa-institution"></i> City</label><br><br>
@@ -37,7 +39,6 @@
       <label for="Diocese">Diocese/Affiliation:</label><br><br>
       <input type="text" id="Diocese" name="Diocese"><br><br>
       <input type="submit" value="Submit">
-    </form> 
 
     <p style= "color: #d0b986">If you click the "Submit" button, the form-data will be sent to a mentor who will contact you within 24 - 48 hours.</p>
 

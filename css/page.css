@@ -54,6 +54,13 @@ div {
      color: #d0b986;
    }
 
+   h3 {
+     font-size: 20px;
+     vertical-align: top;
+     text-align: left;
+     color: #d0b986;
+   }
+
 body {
      background-color: #8a2432;
 }
@@ -69,4 +76,15 @@ italic{
 
 form{
      color: #d0b986
+}
+
+button{
+     background-color: #d0b986;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
 }
