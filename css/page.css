@@ -17,6 +17,7 @@
 .dropdown {
      position: relative;
      display: inline-block;
+
    }
    
    /* Dropdown Content (Hidden by Default) */
@@ -43,7 +44,7 @@
    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
-div {
+   div {
      vertical-align: top;
    }
 
@@ -61,24 +62,24 @@ div {
      color: #d0b986;
    }
 
-body {
+   body {
      background-color: #8a2432;
 }
 
-ul{
+   ul{
      list-style-type: square;
      background-color: #d0b986;
 }
 
-italic{
+   italic{
      color: #d0b986;
 }
 
-form{
+   form{
      color: #d0b986
 }
 
-button{
+  button{
      background-color: #d0b986;
      border: none;
      color: white;
@@ -87,4 +88,14 @@ button{
      text-decoration: none;
      display: inline-block;
      font-size: 16px;
+}
+
+   div.test{
+     font-size: 80px;
+}
+
+  @media only screen and (max-width: 600px) {
+	div.test {
+          font-size: 16px;
+     }
 }
