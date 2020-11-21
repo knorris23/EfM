@@ -99,3 +99,17 @@
           font-size: 16px;
      }
 }
+
+/* background */
+body {
+  padding-top: 0px;
+  margin: 0px auto;
+  background-color: black;
+  background-image: url(../pics/efm-logo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  background-size: cover 100%;
+  background-attachment: fixed;
+  height: 0%;
+}
